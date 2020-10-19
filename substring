@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{    
+    char str1[] = "XYYZXZYZXXYZ";
+    char str2[] = "XYZ";
+    int n =strlen(str2);
+    for (int len = 1; len <= n; len++) 
+    {    
+       
+        for (int i = 0; i <= n - len; i++) 
+        {
+            int m=0; 
+             
+            int j = i + len - 1;            
+            for (int k = i,l=0; k <= j; k++,l++){
+                cout << str[k];
+            }
+            
+        }
+        
+    }
+    return 0;
+}
